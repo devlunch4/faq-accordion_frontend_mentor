@@ -97,19 +97,4 @@ body::before {
 }
 
 .accordion-answer {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.8s ease, opacity 0.8s ease;
-  opacity: 0;
-}
-
-.accordion-answer.show {
-  max-height: 200px;
-  opacity: 1;
-  margin-bottom: 1rem;
-}
-
-.icon {
-  width: 24px;
-  height: 24px;
-}
+  ma
