@@ -9,7 +9,7 @@ questions.forEach((question) => {
       btn.setAttribute("aria-expanded", "false");
       btn.nextElementSibling.classList.remove("show");
       const icon = btn.querySelector(".icon");
-      icon.src = "images/icon-plus.svg";
+      icon.src = "assets/images/icon-plus.svg";
       icon.alt = "expand";
     });
 
@@ -18,7 +18,7 @@ questions.forEach((question) => {
       question.setAttribute("aria-expanded", "true");
       question.nextElementSibling.classList.add("show");
       const icon = question.querySelector(".icon");
-      icon.src = "images/icon-minus.svg";
+      icon.src = "assets/images/icon-minus.svg";
       icon.alt = "collapse";
     }
   });
